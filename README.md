@@ -1,0 +1,2 @@
+# Social-Media-Web-APP-With-PHP-Mailer-
+This is social media website. Where people can post their social problem in this platform. In this platform any registered users can make post. We use SMTP server to automatic mail. When a post is published the authority and government people of the nearest place will get a mail. There are two dashboards are here. One for general users and another one for admin.
