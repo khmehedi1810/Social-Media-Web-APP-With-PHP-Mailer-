@@ -1,0 +1,24 @@
+.custom-logout{
+	margin-right: 12px;
+	font-size: 16px;
+	color: #fff;
+}
+.custom-logout:hover{
+	color: #ffcbcb;
+}
+/*Comment sec*/
+.comt-sec{
+    list-style: none;
+}
+.comt-sec li{
+    background: #0f2d099e;
+    border-radius: 5px;
+    padding: 10px 0px;
+    padding-left: 15px;
+    margin: 10px 0px;
+    color: #fff;
+    transition: all .5s ease;
+}
+.comt-sec li:hover{
+    background: #030f009e;
+}

@@ -1,0 +1,94 @@
+.bg-register-image {
+    background-image: url(https://www.cardiosmart.org/images/default-source/move-more/2020/07/09/help-600x800.jpg?sfvrsn=a7290560_2)!important;
+}
+.bg-login-image {
+    background: url(http://printoteket.weebly.com/uploads/1/4/8/8/14881762/foto-2018-10-12-13-11-54-2_orig.jpg)!important;
+    background-position: center!important;
+    background-size: cover!important;
+}
+.fulpstimg{
+	text-align: center;
+	width: 80%;
+	height: 70%;
+	padding: 10px;
+	border-radius: 15px;
+}
+
+/*For Comment box*/
+.date {
+    font-size: 11px
+}
+
+.comment-text {
+    font-size: 12px
+}
+
+.fs-12 {
+    font-size: 12px
+}
+
+.shadow-none {
+    box-shadow: none
+}
+
+.name {
+    color: #007bff
+}
+
+.cursor:hover {
+    color: blue
+}
+
+.cursor {
+    cursor: pointer
+}
+
+.textarea {
+    resize: none
+}
+
+.fa-facebook {
+    color: #3b5999
+}
+
+.fa-twitter {
+    color: #55acee
+}
+
+.fa-linkedin {
+    color: #0077B5
+}
+
+.fa-instagram {
+    color: #e4405f
+}
+
+.fa-dribbble {
+    color: #ea4c89
+}
+
+.fa-pinterest {
+    color: #bd081c
+}
+
+.fa {
+    cursor: pointer
+}
+/*End Comment box*/
+
+/*Comment*/
+.comt-sec{
+    list-style: none;
+}
+.comt-sec li{
+    background: #0f2d099e;
+    border-radius: 5px;
+    padding: 10px 0px;
+    padding-left: 15px;
+    margin: 10px 0px;
+    color: #fff;
+    transition: all .5s ease;
+}
+.comt-sec li:hover{
+    background: #030f009e;
+}

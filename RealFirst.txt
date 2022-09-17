@@ -1,0 +1,16 @@
+For control Login:
+
+http://localhost/somadhan.org/control/
+Security Key:
+100200
+Email:somadhan@gmail.com
+Pass:100200
+
+
+For Admin Login:
+
+http://localhost/somadhan.org/admin/
+username:
+Faisal_Hamid
+pass:1234
+

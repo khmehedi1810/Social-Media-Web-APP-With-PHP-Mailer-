@@ -1,0 +1,310 @@
+/*Nav Menu*/
+.head-title h1, .head-title h2{
+    color: #5A5A5C;
+}
+.global-heading-col{
+    color: #5A5A5C;
+}
+.global-logo-bg-dark{
+    background-color: #5A5A5C;
+}
+.global-logo-bg-light{
+    background-color: #F58020;
+}
+.navbar-custom{
+    background-color: #F58020;
+}
+.custom-nav ul li a.nav-link {
+    font-weight: bold;
+    font-size: 20px;
+    color: #ffffff !important;
+}
+.nav-item.active a.nav-link{
+    color: #0056b3 !important;
+}
+.custom-nav .nav-item a.nav-link:hover{
+    color: #5A5A5C !important;
+    text-decoration: underline;
+}
+
+
+/*Classess Section*/
+.classess{
+
+}
+.classess a:hover {
+	text-decoration: none;
+}
+.custom-shadow{
+	box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+}
+.cards:hover{
+	background: #6C755B!important;
+}
+.classess .border-warning{
+    border:1px solid #F58020!important;
+}
+/*button Section*/
+.btn-logo-col{
+    background-color: #F58020;
+    color: #fff;
+    font-weight: bold;
+}
+.btn-logo-col:hover{
+    background-color: #5A5A5C;
+    color: #fff;
+}
+.btn-logo-col-1{
+    background-color: #5A5A5C;
+    color: #fff;
+    font-weight: bold;
+}
+.btn-logo-col-1:hover{
+    background-color: #F58020;
+    color: #fff;
+}
+/*Teacher Section*/
+.teacher p a{
+	font-size: 20px;
+	color: #5d5454;
+}
+/*FAQ*/
+.card-header:first-child {
+    border-radius: 0;
+}
+.card-header {
+    padding: 0;
+    margin-bottom: 0;
+    background-color: snow;
+    border-bottom: none;
+}
+.faq-sec .card-header h5 button {
+	font-size: 20px;
+}
+/*Footer Part*/
+.bg-foot-custom {
+    background: rgb(91,91,93);
+    color: #fff;
+}
+#foot-sos-med li a.nav-link {
+    font-size: 22px;
+}
+#foot-sos-med i {
+    color: #fff;
+    background: #F58020;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 0;
+}
+.bg-foot-custom-con{
+	padding-top: 6%;
+	padding-bottom: 4%;
+}
+.first-foot-col p{
+	color: rgba(0, 0, 0, 0.7)!important;
+	line-height: 32px;
+}
+.third-foot-col a, .fourth-foot-col a, .secnd-foot-col a{
+	text-decoration: underline;
+	color: #fff;
+}
+.secnd-foot-col a:hover, .third-foot-col a:hover, .fourth-foot-col a:hover{
+	color: #F58020;
+}
+.copy-right{
+	padding-top: 2%;
+	padding-bottom: 2%;
+	background-color: #F58020;
+}
+.copy-right p{
+	font-size: 16px;
+	color: #5A5A5C;
+}
+.copy-right a{
+	color: #5A5A5C;
+	text-decoration: underline;
+}
+/*End Footer Part*/
+/*Foot Social Media*/
+
+#foot-sos-med li a.nav-link {
+    font-size: 22px;
+}
+/*Log in Section*/
+.login-modal{
+	width: 100%;
+}
+
+/*Registration here*/
+
+.register{
+    background: -webkit-linear-gradient(left, #3931af, #00c6ff);
+    margin-top: 3%;
+    padding: 3%;
+}
+.register-left{
+    text-align: center;
+    color: #fff;
+    margin-top: 4%;
+}
+.register-left a{
+    border: none;
+    border-radius: 1.5rem;
+    padding: 5px 30px;
+    width: 60%;
+    background: #F58020;
+    font-weight: bold;
+    color: #fff;
+    margin-top: 30%;
+    margin-bottom: 3%;
+    cursor: pointer;
+}
+.register-right{
+    background: #f8f9fa;
+    border-top-left-radius: 10% 50%;
+    border-bottom-left-radius: 10% 50%;
+}
+.register-left img{
+    margin-top: 15%;
+    margin-bottom: 5%;
+    width: 25%;
+    -webkit-animation: mover 2s infinite  alternate;
+    animation: mover 1s infinite  alternate;
+}
+@-webkit-keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-20px); }
+}
+@keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-20px); }
+}
+.register-left p{
+    font-weight: lighter;
+    padding: 12%;
+    margin-top: -9%;
+}
+.register .register-form{
+    padding: 10%;
+    margin-top: 10%;
+}
+.btnRegister {
+    float: right;
+    margin-top: 4%;
+    margin-bottom: 2%;
+    border: none;
+    border-radius: 1.5rem;
+    padding: 2%;
+    background: #0062cc;
+    color: #fff;
+    font-weight: 600;
+    width: 50%;
+    cursor: pointer;
+}
+.register .nav-tabs{
+    margin-top: 3%;
+    border: none;
+    background: #F58020;
+    border-radius: 1.5rem;
+    width: 28%;
+    float: right;
+}
+.register .nav-tabs .nav-link{
+    padding: 2%;
+    height: 34px;
+    font-weight: 600;
+    color: #fff;
+    border-top-right-radius: 1.5rem;
+    border-bottom-right-radius: 1.5rem;
+}
+.register .nav-tabs .nav-link:hover{
+    border: none;
+}
+.register .nav-tabs .nav-link.active{
+    width: 100px;
+    color: #0062cc;
+    border: 2px solid #0062cc;
+    border-top-left-radius: 1.5rem;
+    border-bottom-left-radius: 1.5rem;
+}
+.register-heading{
+    text-align: center;
+    margin-top: 8%;
+    margin-bottom: -15%;
+    color: #495057;
+}
+
+/*Registration End*/
+.form-control {
+    color: #91b5d4;
+}
+.log-stu-bg-info {
+    background-color: #2e76b6!important;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+.register {
+    background-image: url('img/Screenshot_1.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 3%;
+    padding: 3%;
+}
+.register-right {
+    background: hsl(210,16.7%,97.6%, .6);
+    border-top-left-radius: 10% 50%;
+    border-bottom-left-radius: 10% 50%;
+}
+/*btn css again*/
+.btn-logo-col{
+    background-color: #F58020;
+    color: #fff;
+    font-weight: bold;
+}
+.btn-logo-col:hover{
+    background-color: #5A5A5C;
+    color: #fff;
+}
+.error-row {
+    padding: 30px;
+    min-height: 0!important;
+}
+.ful_crs_info {
+    font-size: 20px!important;
+    font-weight: 500!important;
+}
+.full-course-det .card-body {
+    padding: 1.25rem;
+    padding-top: 15px;
+    padding-bottom: 0px;
+}
+/*Notification bar*/
+.notifications .border-left-success {
+    border-left: .25rem solid #1cc88a!important;
+}
+.notifications .card-body {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 25px 15px 0px 20px;
+}
+
+.notifications .align-items-center {
+    -webkit-box-align: center!important;
+    -ms-flex-align: center!important;
+    align-items: center!important;
+}
+
+.notifications .no-gutters {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.notifications .no-gutters>.col, .no-gutters>[class*=col-] {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.notifications
